@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	h1,h2,form,h3{
+		text-align:center;
+	}
+	h1{
+		margin-top:50px;
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	h2{
+		color:#ed870c;
+	}
+	#d1{
+		background-color:#1f7b7b1a;
+	}
+	input{
+	width: 205px;
+    padding: 8px;
+    font-size: 15px;
+	}
+
+</style>
+</head>
+<body>
+	<div id="d1">
+		<h1>Balance Enquiry Application</h1>
+	</div>
+	<h2>Register Now!</h2>
+	<form action="register" id="f1">
+		<input type="text" name="name" placeholder="Name"><br><br>
+		<input type="text" name="lname" placeholder="LastName"><br><br>
+		<input type="text" name="mob" placeholder="MobileNumber" pattern="[0-9]{10)" required><br><br>
+		<input type="text" name="pass" placeholder="Password"><br><br>
+		<input type="submit" value="Register"><br>
+	</form>
+	
+	<h3><a href="/LoginPage/login">If you already Registerd click here to Login</a></h3>
+</body>
+</html>
